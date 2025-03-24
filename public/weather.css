@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    }
+    
+    /* Header */
+    header {
+    background-color: #4a4e69;
+    color: white;
+    padding: 20px;
+    }
+    
+    header h1 {
+    margin: 0;
+    }
+    
+    header p {
+    font-size: 1.2rem;
+    }
+    
+    /* Season Sections */
+    .season {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Spring */
+    .spring {
+    background-color: #d4edda;
+    color: #155724;
+    }
+    
+    /* Summer */
+    .summer {
+    background-color: #ffeeba;
+    color: #856404;
+    }
+    
+    /* Fall */
+    .fall {
+    background-color: #f8d7da;
+    color: #721c24;
+    }
+    
+    /* Winter */
+    .winter {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    }
+    
+    /* Footer */
+    footer {
+    background-color: #2a2d3e;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    }
+    

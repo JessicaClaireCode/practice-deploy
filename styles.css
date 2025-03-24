@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1d1736, #181728);
+  color: #f1f5f9;
+}
+
+a {
+  color: #54c3f3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #74c8e7;
+}
+
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: #1e293b;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.padding-footer {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.screenshot-border {
+    border-color: aliceblue;
+    border-width: 20px;
+   
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #e791f6;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+ /* Contact button styling */
+.contact-button {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0ea5e9;
+  color: #fff;
+} 
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ /* Mobile responsive tweaks */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+
+
+     /* Footer */
+     footer {
+        background-color: #2a2d3e;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        }
+}

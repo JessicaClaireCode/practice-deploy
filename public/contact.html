@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Jessica Claire</title>
+    <link rel="stylesheet" href="about-contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <h2>Let's Connect! 📬</h2>
+        <p>
+          Have a question or just want to say hello? Feel free to reach out!
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:jessica@example.com">jessica@example.com</a>
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/JessicaClaireCode" target="_blank"
+            >JessicaClaireCode</a
+          >
+        </p>
+        <p>
+          <strong>Website:</strong>
+          <a href="https://JessicaClaireCode.com" target="_blank"
+            >JessicaClaireCode.com</a
+          >
+        </p>
+
+        <form
+          action="mailto:jessica@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Jessica Claire | <a href="about.html">About Me</a></p>
+    </footer>
+  </body>
+</html>
